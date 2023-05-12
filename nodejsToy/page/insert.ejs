@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body class="add-page">
+    <div class="add-page-title">
+        <h2>write a post</h2>
+    </div>
+    <div class="add-box">
+        <form method="post" class="add-write-form">
+            <div class="add-title-box">
+                <label for="" class="add-title-section">title</label>
+                <input type="text" name="title" class="add-title-input">
+            </div>
+            <div class="add-content-box">
+                <label for="" class="add-content-section">content</label>
+                <!-- <input type="text" name="content" class="add-content-input"> -->
+                <textarea name="content" cols="30" rows="10" class="add-content-input"></textarea>
+            </div>
+            <!-- {title : input value, content : input value} -->
+            <div class="add-button-box">
+                <a href="/main" class="add-back-button">back to list</a>
+                <button class="add-button">add</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

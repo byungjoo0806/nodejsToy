@@ -1,0 +1,885 @@
+@font-face {
+    font-family: "dynapuff";
+    src: url(./DynaPuff/DynaPuff-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: "roboto";
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+
+
+/* ------------------------------- intro page ------------------------------- */
+.intro-page{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #3f87a6);
+
+    font-family: "dynapuff";
+}
+.intro-box{
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+
+    /* background-color: white; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    position: relative;
+}
+.intro-title{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "dynapuff";
+    font-weight: 400;
+    font-size: 40px;
+}
+.intro-to-login{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-login-link{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "dynapuff";
+    color: black;
+}
+/* ------------------------------- intro page ------------------------------- */
+
+
+/* ------------------------------- login page ------------------------------- */
+.login-page{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #3f87a6);
+
+    font-family: "roboto";
+}
+.login-title{
+    width: 300%;
+    height: 50px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+}
+.login-box{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-username-box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.login-password-box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.login-button-box{
+    width: 100%;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.login-button{
+    width: 100%;
+}
+.login-to-signup{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.login-to-signup-link{
+    text-decoration: none;
+    color: black;
+
+    font-size: 14px;
+}
+.login-to-signup-link:hover{
+    scale: 1.1;
+}
+/* ------------------------------- login page ------------------------------- */
+
+
+/* ------------------------------- signup page ------------------------------- */
+.signup-page{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #3f87a6);
+
+    font-family: "roboto";
+}
+.signup-title{
+    width: 300%;
+    height: 50px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+}
+.signup-box{
+    width: 400px;
+    height: 220px;
+    border-radius: 10px;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.signup-form{
+    width: 95%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.signup-firstname-box{
+    width: 95%;
+
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.signup-firstname{
+    margin-right: 5px;
+}
+.signup-firstname-input{
+    width: 60%;
+}
+.signup-lastname-box{
+    width: 95%;
+
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.signup-lastname{
+    margin-right: 5px;
+}
+.signup-lastname-input{
+    width: 60%;
+}
+.signup-username-box{
+    width: 95%;
+
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.signup-username{
+    margin-right: 5px;
+}
+.signup-username-input{
+    width: 60%;
+}
+.signup-password-box{
+    width: 95%;
+
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.signup-password{
+    margin-right: 5px;
+}
+.signup-password-input{
+    width: 60%;
+}
+.signup-button-box{
+    width: 100%;
+
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-button{
+    width: 80%;
+    height: 25px;
+}
+.signup-back-to-login{
+    text-decoration: none;
+    color: black;
+    
+    font-size: 13px;
+}
+.signup-back-to-login:hover{
+    color: rgb(116, 116, 116);
+}
+/* ------------------------------- signup page ------------------------------- */
+
+
+/* ------------------------------- main page ------------------------------- */
+.main-page{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #3f87a6);
+
+    font-family: "roboto";
+}
+.main-title{
+    width: 300%;
+    height: 50px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+}
+.main-box{
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.main-add-button-box{
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.main-add-button{
+    text-decoration: none;
+    color: black;
+
+    background-color: lightgray;
+    border-radius: 5px;
+
+    padding: 3px;
+}
+.main-add-button:hover{
+    scale: 1.1;
+}
+.main-list-box{
+    width: 100%;
+    height: 330px;
+}
+.main-list{
+    width: 100%;
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.main-list-header{
+    width: 100%;
+    height: 10px;
+
+    outline: thin solid;
+    background-color: lightgray;
+
+    border-collapse: collapse;
+}
+.main-list-number{
+    width: 10%;
+    border-right: 1px solid;
+}
+.main-list-title{
+    width: 60%;
+    border-right: 1px solid;
+}
+.main-list-username{
+    width: 20%;
+    border-right: 1px solid;
+}
+.main-list-likes{
+    width: 10%;
+}
+.main-list-items{
+    width: 100%;
+}
+.main-list-item-number{
+    width: 10%;
+
+    text-align: center;
+
+    border-right: 1px dashed black;
+    border-bottom: 1px solid black;
+}
+.main-list-item-title{
+    width: 60%;
+
+    text-align: center;
+
+    border-right: 1px dashed black;
+    border-bottom: 1px solid black;
+}
+.main-item-title{
+    text-decoration: none;
+    color: black;
+}
+.main-list-item-username{
+    width: 20%;
+
+    text-align: center;
+
+    border-right: 1px dashed black;
+    border-bottom: 1px solid black;
+}
+.main-list-item-likes{
+    width: 10%;
+
+    text-align: center;
+
+    border-bottom: 1px solid black;
+}
+.main-logout-button-box{
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main-logout-button{
+    text-decoration: none;
+    color: black;
+
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.main-logout-button:hover{
+    scale: 1.1;
+}
+/* ------------------------------- main page ------------------------------- */
+
+
+/* ------------------------------- detail page ------------------------------- */
+.detail-page{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #3f87a6);
+
+    font-family: "roboto";
+}
+.detail-page-title{
+    width: 300%;
+    height: 50px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+}
+.detail-box{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.detail-item-num{
+    width: 96%;
+
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.detail-num-section{
+    margin-right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-num-input{
+    border: none;
+    background-color: transparent;
+}
+.detail-title-box{
+    width: 96%;
+    height: 30px;
+
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+.detail-title-section{
+    margin-right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-title-input{
+    border: none;
+    background-color: transparent;
+}
+.detail-username-box{
+    width: 96%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.detail-username-section{
+    margin-right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-username-input{
+    border: none;
+    background-color: transparent;
+
+    width: 30%;
+}
+.detail-content-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 40%;
+}
+.detail-content-section{
+    width: 96%;
+    height: 30px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.detail-content-input{
+    width: 95%;
+    height: 80%;
+
+    resize: none;
+
+    font-family: "roboto";
+}
+.detail-button-box{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detail-like-button-box{
+    margin-left: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.detail-like-button{
+    background-color: transparent;
+    border: none;
+
+    font-size: 15px;
+}
+.detail-like-button:hover{
+    cursor: pointer;
+}
+.detail-fix-button-box{
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.detail-edit-button-box{
+    margin-right: 5px;
+}
+.detail-edit-button{
+    text-decoration: none;
+    color: black;
+
+    font-size: 15px;
+
+    background-color: lightgray;
+
+    border-radius: 5px;
+
+    padding: 5px;
+}
+.detail-edit-button:hover{
+    color: rgb(116, 116, 116);
+}
+.detail-delete-button-box{
+    margin-right: 5px;
+}
+.detail-delete-button{
+    text-decoration: none;
+    color: black;
+
+    font-size: 15px;
+
+    background-color: lightgray;
+
+    border-radius: 5px;
+
+    padding: 5px;
+}
+.detail-delete-button:hover{
+    color: rgb(116, 116, 116);
+}
+.detail-back-to-list-button-box{
+    margin-right: 10px;
+}
+.detail-back-to-list-button{
+    text-decoration: none;
+    color: black;
+
+    font-size: 15px;
+
+    background-color: lightgray;
+
+    border-radius: 5px;
+
+    padding: 5px;
+}
+.detail-back-to-list-button:hover{
+    color: rgb(116, 116, 116);
+}
+.detail-comment-box{
+    width: 97%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-bottom: 10px;
+}
+.detail-comment-section{
+    width: 100%;
+}
+.detail-comment-area{
+    width: 100%;
+    height: 50px;
+
+    resize: none;
+}
+.detail-comment-add-box{
+    width: 97%;
+}
+.detail-comment-add-form{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.detail-comment-add-section{
+    width: 100%;
+}
+.detail-comment-add-input{
+    width: 100%;
+
+    margin-bottom: 5px;
+}
+.detail-comment-add-button-box{
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* ------------------------------- detail page ------------------------------- */
+
+
+/* ------------------------------- add page ------------------------------- */
+.add-page{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #3f87a6);
+
+    font-family: "roboto";
+}
+.add-page-title{
+    width: 300%;
+    height: 50px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+}
+.add-box{
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-write-form{
+    width: 80%;
+    height: 95%;
+}
+.add-title-box{
+    width: 100%;
+
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+.add-title-section{
+    margin-right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-title-input{
+    width: 100%;
+}
+.add-content-box{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 70%;
+}
+.add-content-section{
+    width: 100%;
+
+    margin-bottom: 5px;
+}
+.add-content-input{
+    width: 100%;
+    height: 90%;
+
+    resize: none;
+
+    font-family: "roboto";
+}
+.add-button-box{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 10px;
+}
+.add-back-button{
+    text-decoration: none;
+    color: black;
+}
+.add-back-button:hover{
+    scale: 1.1;
+}
+/* ------------------------------- add page ------------------------------- */
+
+
+/* ------------------------------- edit page ------------------------------- */
+.edit-page{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #3f87a6);
+
+    font-family: "roboto";
+}
+.edit-page-title{
+    width: 300%;
+    height: 50px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+}
+.edit-box{
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit-write-form{
+    width: 80%;
+    height: 95%;
+}
+.edit-title-box{
+    width: 100%;
+
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+.edit-title-section{
+    margin-right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit-title-input{
+    width: 100%;
+}
+.edit-content-box{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 70%;
+}
+.edit-content-section{
+    width: 100%;
+
+    margin-bottom: 5px;
+}
+.edit-content-input{
+    width: 100%;
+    height: 90%;
+
+    resize: none;
+
+    font-family: "roboto";
+}
+.edit-button-box{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 10px;
+}
+.edit-back-button{
+    text-decoration: none;
+    color: black;
+}
+.edit-back-button:hover{
+    scale: 1.1;
+}

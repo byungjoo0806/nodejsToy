@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body class="edit-page">
+    <div class="edit-page-title">
+        <h2>fix your post</h2>
+    </div>
+    <div class="edit-box">
+        <form method="post" class="edit-write-form">
+            <div class="edit-item-num">
+                <label for="">no.</label>
+                <input type="text" name="id" value="<%= data.id %>" disabled>
+            </div>
+            <div class="edit-title-box">
+                <label for="" class="edit-title-section">title</label>
+                <input type="text" name="title" value="<%= data.title %>" class="edit-title-input">
+            </div>
+            <div class="edit-content-box">
+                <label for="" class="edit-content-section">content</label>
+                <!-- <input type="text" name="content" value="<%= data.content %>"> -->
+                <textarea name="content" cols="30" rows="10" class="edit-content-input"><%= data.content %></textarea>
+            </div>
+            <div class="edit-button-box">
+                <a href="/main" class="edit-back-button">back to list</a>
+                <button class="edit-button">edit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

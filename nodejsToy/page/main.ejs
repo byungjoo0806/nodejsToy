@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body class="main-page">
+    <div class="main-title">
+        <h2>main page</h2>
+    </div>
+    <div class="main-box">
+        <div class="main-add-button-box">
+            <a href="/insert" class="main-add-button">add new</a>
+        </div>
+        <div class="main-list-box">
+            <table class="main-list">
+                <tr class="main-list-header">
+                    <th class="main-list-number">no.</th>
+                    <th class="main-list-title">title</th>
+                    <th class="main-list-username">username</th>
+                    <th class="main-list-likes">likes</th>
+                    <!-- <th>삭제</th>
+                        <th>수정</th> -->
+                </tr>
+                <% data.forEach((el,index) => { %>
+                    <tr class="main-list-items">
+                        <td class="main-list-item-number"><%= el.id %></td>
+                        <td class="main-list-item-title"><a href="/detail/<%= el.id %>" class="main-item-title"><%= el.title %></a></td>
+                        <td class="main-list-item-username"><%= el.username %></td>
+                        <td class="main-list-item-likes"><%= el.likes %></td>
+                    </tr>
+                <% }); %>
+            </table>
+        </div>
+        <div class="main-logout-button-box">
+            <a href="/login" class="main-logout-button">log out</a>
+        </div>
+    </div>
+</body>
+</html>

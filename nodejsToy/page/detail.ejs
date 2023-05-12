@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body class="detail-page">
+    <div class="detail-page-title">
+        <h2>post</h2>
+    </div>
+    <div class="detail-box">
+        <div class="detail-item-num">
+            <label for="" class="detail-num-section">no.</label>
+            <input class="detail-num-input" type="text" name="id" value="<%= data?.id %>" disabled>
+        </div>
+        <div class="detail-title-box">
+            <label for="" class="detail-title-section">title</label>
+            <input class="detail-title-input" type="text" name="title" value="<%= data?.title %>" disabled>
+        </div>
+        <div class="detail-username-box">
+            <label for="" class="detail-username-section">username</label>
+            <input class="detail-username-input" type="text" name="username" value="<%= data?.username %>" disabled>
+        </div>
+        <div class="detail-content-box">
+            <label for="" class="detail-content-section">content</label>
+            <textarea class="detail-content-input" name="content" cols="20" rows="10" disabled><%= data?.content %></textarea>
+        </div>
+        <div class="detail-button-box">
+            <form id="like-form" class="detail-like-button-box" method="post">
+                <button class="detail-like-button">likes</button>
+                <p class="detail-like-num"><%= data?.likes %></p>
+            </form>
+            <div class="detail-fix-button-box">
+                <div class="detail-edit-button-box">
+                    <a href="/edit/<%= data?.id %>" class="detail-edit-button">edit</a>
+                </div>
+                <div class="detail-delete-button-box">
+                    <a href="/delete/<%= data?.id %>" class="detail-delete-button">delete</a>
+                </div>
+                <div class="detail-back-to-list-button-box">
+                    <a href="/main" class="detail-back-to-list-button">back to list</a>
+                </div>
+            </div>
+        </div>
+        <div class="detail-comment-box">
+            <label for="" class="detail-comment-section">comments</label>
+            <textarea class="detail-comment-area" name="comment" id="" cols="20" rows="1" disabled><%= comments?.comment %></textarea>
+        </div>
+        <div class="detail-comment-add-box">
+            <form id="comment-form" method="post" action="/comment" class="detail-comment-add-form">
+                <label for="" class="detail-comment-add-section">add comment</label>
+                <input class="detail-comment-add-input" type="text" name="comment">
+                <div class="detail-comment-add-button-box">
+                    <button class="detail-comment-add-button" formaction="/comment">add</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
