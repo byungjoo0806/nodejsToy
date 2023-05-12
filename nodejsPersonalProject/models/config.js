@@ -3,7 +3,7 @@ const mysql2 = require("mysql2/promise");
 // createPool 메소드로 mysql 연결관리
 const mysql = mysql2.createPool({
     user : "root", // mysql 사용자
-    password : "DIGI0408as^^", // mysql 패스워드
+    password : "", // mysql 패스워드
     multipleStatements : true, // 여러 쿼리문 적용 가능
     database : "personalToy" // mysql 데이터베이스 이름
 });
@@ -11,7 +11,7 @@ const mysql = mysql2.createPool({
 // createPool 메소드로 로그인 mysql 연결관리
 const mysqlLogin = mysql2.createPool({
     user : "root",
-    password : "DIGI0408as^^",
+    password : "",
     multipleStatements : true,
     database : "login_db"
 });
