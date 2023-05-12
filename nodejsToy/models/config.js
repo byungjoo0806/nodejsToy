@@ -3,7 +3,7 @@ const mysql2 = require("mysql2/promise");
 // connect mysql database
 const mysql = mysql2.createPool({
     user : "root",
-    password : "DIGI0408as^^",
+    password : "",
     multipleStatements : true,
     database : "toy_project"
 });
